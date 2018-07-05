@@ -1,0 +1,76 @@
+2017-12-05T18:20:06.462-0500 I CONTROL  [initandlisten] MongoDB starting : pid=9843 port=27032 dbpath=mongo 64-bit host=bhc0136.bluehive.circ.private
+2017-12-05T18:20:06.462-0500 I CONTROL  [initandlisten] db version v3.4.10
+2017-12-05T18:20:06.462-0500 I CONTROL  [initandlisten] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2017-12-05T18:20:06.462-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten] modules: none
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten] build environment:
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten]     distmod: rhel70
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-05T18:20:06.463-0500 I CONTROL  [initandlisten] options: { net: { port: 27032 }, storage: { dbPath: "mongo" } }
+2017-12-05T18:20:06.500-0500 I -        [initandlisten] Detected data files in mongo created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-05T18:20:06.500-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=31606M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] ** WARNING: You are running on a NUMA machine.
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] **          We suggest launching mongod like this to avoid performance problems:
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] **              numactl --interleave=all mongod [other options]
+2017-12-05T18:20:07.213-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-12-05T18:20:07.214-0500 I CONTROL  [initandlisten] 
+2017-12-05T18:20:07.254-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongo/diagnostic.data'
+2017-12-05T18:20:07.255-0500 I NETWORK  [thread1] waiting for connections on port 27032
+2017-12-05T18:20:33.196-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33864 #1 (1 connection now open)
+2017-12-05T18:20:33.196-0500 I NETWORK  [conn1] received client metadata from 127.0.0.1:33864 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:20:33.352-0500 I -        [conn1] end connection 127.0.0.1:33864 (1 connection now open)
+2017-12-05T18:22:02.146-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33868 #2 (1 connection now open)
+2017-12-05T18:22:02.147-0500 I NETWORK  [conn2] received client metadata from 127.0.0.1:33868 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:22:02.163-0500 I -        [conn2] end connection 127.0.0.1:33868 (1 connection now open)
+2017-12-05T18:22:50.281-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33870 #3 (1 connection now open)
+2017-12-05T18:22:50.282-0500 I NETWORK  [conn3] received client metadata from 127.0.0.1:33870 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:22:50.312-0500 I -        [conn3] end connection 127.0.0.1:33870 (1 connection now open)
+2017-12-05T18:24:11.797-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33872 #4 (1 connection now open)
+2017-12-05T18:24:11.799-0500 I NETWORK  [conn4] received client metadata from 127.0.0.1:33872 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:24:11.858-0500 I -        [conn4] end connection 127.0.0.1:33872 (1 connection now open)
+2017-12-05T18:25:54.453-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33876 #5 (1 connection now open)
+2017-12-05T18:25:54.454-0500 I NETWORK  [conn5] received client metadata from 127.0.0.1:33876 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:25:54.688-0500 I COMMAND  [conn5] command ebay.items appName: "MongoDB Shell" command: distinct { distinct: "items", key: "Seller", query: {} } planSummary: COLLSCAN keysExamined:0 docsExamined:19528 numYields:159 reslen:599474 locks:{ Global: { acquireCount: { r: 320 } }, Database: { acquireCount: { r: 160 } }, Collection: { acquireCount: { r: 160 } } } protocol:op_command 231ms
+2017-12-05T18:25:54.705-0500 I -        [conn5] end connection 127.0.0.1:33876 (1 connection now open)
+2017-12-05T18:44:17.112-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33898 #6 (1 connection now open)
+2017-12-05T18:44:17.113-0500 I NETWORK  [conn6] received client metadata from 127.0.0.1:33898 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:44:17.187-0500 I -        [conn6] end connection 127.0.0.1:33898 (1 connection now open)
+2017-12-05T18:44:41.886-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:33992 #7 (1 connection now open)
+2017-12-05T18:44:41.888-0500 I NETWORK  [conn7] received client metadata from 127.0.0.1:33992 conn7: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:44:41.928-0500 I -        [conn7] end connection 127.0.0.1:33992 (1 connection now open)
+2017-12-05T18:45:29.212-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34112 #8 (1 connection now open)
+2017-12-05T18:45:29.214-0500 I NETWORK  [conn8] received client metadata from 127.0.0.1:34112 conn8: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:45:29.306-0500 I -        [conn8] end connection 127.0.0.1:34112 (1 connection now open)
+2017-12-05T18:48:45.520-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34116 #9 (1 connection now open)
+2017-12-05T18:48:45.522-0500 I NETWORK  [conn9] received client metadata from 127.0.0.1:34116 conn9: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:48:45.612-0500 I -        [conn9] end connection 127.0.0.1:34116 (1 connection now open)
+2017-12-05T18:48:50.195-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34118 #10 (1 connection now open)
+2017-12-05T18:48:50.195-0500 I NETWORK  [conn10] received client metadata from 127.0.0.1:34118 conn10: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:48:50.228-0500 I -        [conn10] end connection 127.0.0.1:34118 (1 connection now open)
+2017-12-05T18:50:46.424-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34120 #11 (1 connection now open)
+2017-12-05T18:50:46.426-0500 I NETWORK  [conn11] received client metadata from 127.0.0.1:34120 conn11: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T18:50:46.475-0500 I -        [conn11] end connection 127.0.0.1:34120 (1 connection now open)
+2017-12-05T19:02:05.972-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34222 #12 (1 connection now open)
+2017-12-05T19:02:05.974-0500 I NETWORK  [conn12] received client metadata from 127.0.0.1:34222 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T19:02:06.014-0500 I -        [conn12] end connection 127.0.0.1:34222 (1 connection now open)
+2017-12-05T19:03:44.946-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34224 #13 (1 connection now open)
+2017-12-05T19:03:44.948-0500 I NETWORK  [conn13] received client metadata from 127.0.0.1:34224 conn13: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T19:03:45.004-0500 I -        [conn13] end connection 127.0.0.1:34224 (1 connection now open)
+2017-12-05T19:04:43.434-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34226 #14 (1 connection now open)
+2017-12-05T19:04:43.436-0500 I NETWORK  [conn14] received client metadata from 127.0.0.1:34226 conn14: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T19:04:43.462-0500 I -        [conn14] end connection 127.0.0.1:34226 (1 connection now open)
+2017-12-05T19:09:45.967-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:34228 #15 (1 connection now open)
+2017-12-05T19:09:45.969-0500 I NETWORK  [conn15] received client metadata from 127.0.0.1:34228 conn15: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "Red Hat Enterprise Linux Server release 7.4 (Maipo)", architecture: "x86_64", version: "Kernel 3.10.0-693.el7.x86_64" } }
+2017-12-05T19:09:46.037-0500 I -        [conn15] end connection 127.0.0.1:34228 (1 connection now open)

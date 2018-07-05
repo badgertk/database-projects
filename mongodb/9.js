@@ -1,0 +1,1 @@
+db.items.updateOne({_id:"1678348584"},{$set:{"Number_of_Bids":1,"Bids":{"Bid":[{"Amount":1000}]}},$currentDate:{lastModified: true}});
